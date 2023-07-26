@@ -5,15 +5,15 @@ import cv2 as cv
 # cv.imshow('Cat' , img)
 
 # read video
-capture = cv.VideoCapture('video/nba.mp4')
-while True:
-    isTrue , frame = capture.read()
-    cv.imshow('Video' , frame)
+# capture = cv.VideoCapture('video/nba.mp4')
+# while True:
+#     isTrue , frame = capture.read()
+#     cv.imshow('Video' , frame)
 
-    if cv.waitKey(20) & 0xff == ord('d'):
-        break
+#     if cv.waitKey(20) & 0xff == ord('d'):
+#         break
 
-capture.release()
-cv.destroyAllWindows()
+# capture.release()
+# cv.destroyAllWindows()
 
 
